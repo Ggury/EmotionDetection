@@ -12,13 +12,15 @@
 
 Установить модель: 
 Клонируйте модель с Hugging Face в папку репозитория:
-'git clone https://huggingface.co/G1Gru/CLIP_Emotions'
+```bash
+git clone https://huggingface.co/G1Gru/CLIP_Emotions
+```
 
 Установка зависимостей:
 
-'''bash
+```bash
 pip install torch torchvision transformers huggingface_hub opencv-python numpy matplotlib ultralytics
-'''
+```
 
 # Запуск
 

@@ -16,8 +16,9 @@
 
 Установка зависимостей:
 
-''bash''
-'pip install torch torchvision transformers huggingface_hub opencv-python numpy matplotlib ultralytics'
+'''bash
+pip install torch torchvision transformers huggingface_hub opencv-python numpy matplotlib ultralytics
+'''
 
 # Запуск
 

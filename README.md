@@ -1,29 +1,29 @@
 # EmotionDetection
-Проект для **распознавания эмоций** с использованием **YOLOv8 + CLIP**, чтобы в реальном времени определять эмоциональное состояние водителя по изображению.
+A project for **emotion recognition** using **YOLOv8 + CLIP**.
 
-# Работа
-1) Распознавание лиц на изображении с помощью **YOLOv8** 
-2) Выравнивание лиц
-3) Анализ лиц с помощью **CLIP_Emotion**
+# Functionality
+1) Face detection on images using **YOLOv8**  
+2) Face alignment  
+3) Face analysis using **CLIP_Emotion**
 
-# Установка
-В программе используется модель дообученная модель CLIPv14 [CLIP Emotions](//huggingface.co/G1Gru/CLIP_Emotions):
+# Installation
 
+This project uses a fine-tuned CLIPv14 model [CLIP_Emotions](https://huggingface.co/G1Gru/CLIP_Emotions).
 
-Установить модель: 
-Клонируйте модель с Hugging Face в папку репозитория:
+Download the model:  
+Clone the model from Hugging Face into your repository folder:
 ```bash
 git clone https://huggingface.co/G1Gru/CLIP_Emotions
 ```
 
-Установка зависимостей:
+Install dependencies:
 
 ```bash
-pip install torch torchvision transformers huggingface_hub opencv-python numpy matplotlib ultralytics
+pip install -r requirements.txt
 ```
 
-# Запуск
+# Usage
 
-1) В папку репозитория поместить картинку с нужным лицом и названием "Example.jpg" 
-2) Запустить Main.py из виртуальной среды с установленными зависимостями
+1) Place an image containing the face you want to analyze into the repository folder with the name `Example.jpg`.  
+2) Run `main.py` from your virtual environment with the installed dependencies.
 
